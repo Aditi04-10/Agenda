@@ -4,10 +4,10 @@ public class ProductOfAllDigits {
     static void main() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        System.out.println(CountDigit(n));
+        System.out.println(ProductDigit(n));
     }
 
-    public static int CountDigit(int n){
+    public static int ProductDigit(int n){
         int product=1;
         if(n==0){
             return 0;
