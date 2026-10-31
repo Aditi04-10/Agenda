@@ -5,10 +5,10 @@ public class SumOfAllDigits {
     static void main() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        System.out.println(CountDigit(n));
+        System.out.println(SumOfDigit(n));
     }
 
-    public static int CountDigit(int n){
+    public static int SumOfDigit(int n){
         int sum=0;
         if(n==0){
             return sum;
