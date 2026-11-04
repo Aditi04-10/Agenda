@@ -1,25 +1,27 @@
+package Nov3;
+
 import java.util.Scanner;
 
-public class SmallestDigit {
+public class LargestDigit {
     static void main() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        System.out.println(smallestDigit(n));
+        System.out.println(largestDigit(n));
     }
 
-    public static int smallestDigit(int n){
-        int smallest=9;
+    public static int largestDigit(int n){
+        int largest=0;
         int rem=0;
         while(n>0){
             rem=n%10;
-            if(rem<smallest){
-                smallest = rem;
+            if(rem>largest){
+                largest = rem;
                 n=n/10;
             }
             else{
                 n=n/10;
             }
         }
-        return smallest;
+        return largest;
     }
 }
