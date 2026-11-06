@@ -16,7 +16,6 @@ public class FirstAndLastDigit {
             while (firstDigit >= 10) {
                 firstDigit = firstDigit / 10;
             }
-
             System.out.println(firstDigit + " " + lastDigit);
             T--;
         }
