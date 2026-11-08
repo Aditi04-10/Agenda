@@ -1,4 +1,4 @@
-package Nove8;
+package Nov8;
 
 import java.util.Scanner;
 
