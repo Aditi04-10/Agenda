@@ -10,7 +10,7 @@ public class DoubleStaircaseReverse {
             for(int j=1;j<=i;j++){
                 System.out.print("*");
             }
-            for(int j=1;j<=2*n-2*i;j++){
+            for(int j=1;j<=2*(n-i);j++){
                 System.out.print(" ");
             }
             for(int j=1;j<=i;j++){
