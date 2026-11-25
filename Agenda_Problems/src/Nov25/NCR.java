@@ -14,9 +14,7 @@ public class NCR {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int r = sc.nextInt();
-        System.out.println(factorial(n));
-        System.out.println(factorial(r));
-        System.out.println(factorial(n-r));
+        System.out.println(factorial(n)/(factorial(r)*factorial(n-r)));
 
 
     }
